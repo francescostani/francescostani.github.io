@@ -1,6 +1,8 @@
 <html>
 	<head>
 		<title>Francesco Stani</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+		rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 		<style>
 			h1 {
 				text-align:center;
@@ -49,17 +51,12 @@
 	<body>
 		<header>
 			<h1>Francesco Stani</h1>
-			<table>
-				<thead>
-					<tr>
-						<th><a href ="#section1">chi sono?</a></th>
-						<th><a href ="#section2">interessi e passioni</a></th>
-						<th><a href ="#section3">progetti futuri</a></th>
-						<th><a href ="#section4">miei obbiettivi</a></th>
-						<th><a href ="#section5">la squadra del Potenza calcio</a></th>
-					</tr>
-				</thead>
-			</table>
+					<button type="button" class="btn btn-primary">chi sono?</button>
+					<button type="button" class="btn btn-secondary">interessi e passioni</button>
+					<button type="button" class="btn btn-success">progetti futuri</button>
+					<button type="button" class="btn btn-danger">i miei obbiettivi</button>
+					<button type="button" class="btn btn-warning">la mia regione</button>
+					<button type="button" class="btn btn-info">il potenza calcio</button>
 		</header>
 		<main>
 			<p>
@@ -74,27 +71,31 @@
 					<li>età:17</li>
 					<li>scuola:einstein De lorenzo</li>
 				</ol>
-				<tbody>
-					<tr>
-						<td>frequento l'itis di potenza,sono al quarto anno e ho scelto l'indirizzo di informatica, mi impegno a dare il massimo in ogni attività</td> 
-						<td><img src="informatica.jpg" alt="un'immagine di informatica" title="informatica"/></td>
-					
-					</tr>
-				</tbody>
+				<div class="row">
+					<div class="col-6">
+						<p>frequento l'itis di potenza,sono al quarto anno e ho scelto l'indirizzo di informatica, mi impegno a dare il massimo in ogni attività</p>
+					</div>
+					<div class="col-6">
+						<img src="informatica.jpg" alt="un'immagine di informatica" title="informatica"/></td>
+					</div>
+				</div>
 			</table>
-			<table>
-				<tr>
-					<td>oltre allo studio mi piace uscire con gli amici che mi permette di sviluppare nuove abilità e socializzare con gli altri e mi piace giocare a calcio nel tempo libero.</td>
-						<img src="amici.jpg"alt="gruppo di amici"title="gruppo di amici"/>
-					</td>
-				</tr>
-			</table>
-			<table>
-					<td>il calcio per me è molto più di uno sport, il calcio mi ha insegnato a rimanere concentrato e a gestire le pressioni
-						<img src="calcio.jpg"alt="due persone che calciano un pallone"title="il calcio è una passione"/>
-					</td>
-				</tr>
-			</table>
+			<div class="row">
+				<div class="col-6">
+					<p>oltre allo studio mi piace uscire con gli amici che mi permette di sviluppare nuove abilità e socializzare con gli altri e mi piace giocare a calcio nel tempo libero.</p>
+				</div>
+				<div class="col-6">
+					<img src="amici.jpg"alt="gruppo di amici"title="gruppo di amici"width="320" height="150"/>
+				</div>
+			</div>	
+		<div class="row">
+				<div class="col-6">
+					<p>il calcio per me è molto più di uno sport, il calcio mi ha insegnato a rimanere concentrato e a gestire le pressioni</p>
+				</div>
+				<div class="col-6">
+					<img src="calcio.jpg"alt="due persone che calciano un pallone"title="il calcio è una passione"/>
+				</div>
+			</div>
 			<h2>interessi e passioni</h2>
 			<p>ecco alcune delle mie passioni e attività preferite:</p>
 			<ol>
@@ -103,22 +104,40 @@
 						<li>calcio</li>
 						<li>pallavolo</li>
 						<li>nuoto</li>
-						<img src="sport.jpg" alt="lo sport" title=""fare sport è una passione"/>
+				<div class="row">
+					<div class="col-6">
+						<img src="sport.jpg" alt="lo sport" title=""fare sport è una passione"width="300" height="200"/>
+					</div>
+					<div class="col-6">
 						<p>l'esperienza sportiva va oltre il semplice esercizio fisico. È un viaggio emozionante, una sfida continua che mi permette di esplorare i miei limiti e scoprire nuove capacità.</p>
+					</div>
+				</div>
 					</ul>
 				<li>arte e creatività</li>
 					<ul>
 						<li>disegno</li>
 						<li>fotografie</li>
-						<img src="arte.jpg" alt="l'arte e la creatività" title=""arte"/>
+				<div class="row">
+					<div class="col-6">
+						<img src="arte.jpg" alt="l'arte e la creatività" title=""arte"width="300" height="200"/>
+					</div>
+					<div class="col-6">
 						<p>Credo che l'arte abbia il potere di connettere le persone, di farci sentire vivi e di lasciarci riflettere sul mondo che ci circonda.</p>
+					</div>
+				</div>
 					</ul>
 				<li>viaggi</li>
 					<ul>
 						<li>scoprire nuove culture</li>
 						<li>esplorazione in natura</li>
-						<img src="viaggi.jpg" alt="viaggio" title=""viaggiare è una passione"/>
-					<p>Viaggiare è un'avventura che va oltre il semplice spostamento da un luogo all'altro. </p>
+				<div class="row">
+					<div class="col-6">
+						<img src="viaggi.jpg" alt="viaggio" title=""viaggiare è una passione" width="300" height="auto"/>
+					</div>
+					<div class="col-6">
+						<p>Viaggiare è un'avventura che va oltre il semplice spostamento da un luogo all'altro. </p>
+					</div>
+				</div>
 					</ul>
 			</ol>
 			<h2>progetti futuri</h2>
@@ -138,8 +157,8 @@
 					</ul>	
 			</ol>
 			</table>
-			<h3>tabella dei miei obbiettivi</h3>
-			<table border="solid"/>
+			<h3>i miei obbiettivi</h3>
+			<table border="solid">
 				<thead>
 					<tr>
 						<th>
@@ -173,8 +192,15 @@
 			</table>
 			<section id="section5">
 			<h2>la mia regione</h2>
-				<p>La Basilicata, situata tra la Campania e la Calabria, è una regione affascinante che offre una combinazione di natura incontaminata, tradizioni autentiche e una gastronomia semplice ma deliziosa. Conosciuta per il suo territorio collinare e montuoso, la Basilicata è spesso considerata un gioiello nascosto, lontano dal turismo di massa.</p>
+			<div class="row">
+				<div class="col-6">
+				<p>La Basilicata, situata tra la Campania e la Calabria, è una regione affascinante che offre una combinazionedi natura incontaminata,tradizioni autentiche
+				e una gastronomia semplice ma deliziosa. Conosciuta per il suo territorio collinare e montuoso,la Basilicata è spesso considerata 
+				un gioiello nascosto, lontano dal turismo di massa.</p>
+				</div>
+				<div class="col-6">
 				<img src="basilicata.jpg" alt="una regione" title="la mia regione"/>
+				</div>
 				<tbody>
 					<tr>
 						<td>
@@ -186,12 +212,71 @@
 					width="100%"height="70%"title="basilicata"></iframe>
 				</tr>
 				<p>posti da non perdere:<p>
+				<div class="row">
+					<div class="col-6">
 				<ol>
 					<ul>
 							<li>matera</li>
 							<p>Famosa per i suoi "Sassi", antiche abitazioni scavate nella roccia, Matera è Patrimonio dell'Umanità UNESCO e ha attirato l'attenzione di cineasti e turisti di tutto il mondo. La città offre un'atmosfera unica, con strade strette e panorami spettacolari.</p>
 					</ul>
 				</ol>
+					</div>
+					<div class="col-6">
+						<img src="matera.jpg" alt="una foto di matera" width="300" height="auto">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+				<ol>
+					<ul>
+							<li>maratea</li>
+							<p>Conosciuta come la “Perla del Tirreno”, Maratea vanta splendide spiagge e una famosa statua del Cristo Redentore, che domina il paesaggio dall'alto della montagna.</p>
+					</ul>
+				</ol>
+					</div>
+					<div class="col-6">
+						<img src="maratea.jpg" alt="una foto di maratea" width="300" height="auto">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+				<ol>
+					<ul>
+							<li>castelmezzano e pietrapertosa</li>
+							<p> Questi pittoreschi borghi sono noti per le loro spettacolari formazioni rocciose e offrono emozionanti percorsi di trekking e l'esperienza del "Volo dell'Angelo", una zip line tra i due paesi.</p>
+					</ul>
+				</ol>
+					</div>
+					<div class="col-6">
+						<img src="castelmezzano.jpg" alt="una foto di castelmezzano" width="300" height="auto">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+				<ol>
+					<ul>
+							<li>parco nazionale del pollino</li>
+							<p> Questo parco offre spettacolari paesaggi montani e una ricca biodiversità. È ideale per escursioni, trekking e attività all'aria aperta. Non dimenticare di visitare il famoso pino loricato, un albero secolare simbolo del parco.</p>
+					</ul>
+				</ol>
+					</div>
+					<div class="col-6">
+						<img src="pollino.jpg" alt="una foto del parco nazionale del pollino" width="300" height="auto">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+				<ol>
+					<ul>
+							<li>potenza</li>
+							<p>Capoluogo della Basilicata, Potenza offre un mix di arte e storia. Da visitare la Cattedrale di San Gerardo e il Museo Archeologico Nazionale.</p>
+					</ul>
+				</ol>
+					</div>
+					<div class="col-6">
+						<img src="potenzaCittà.jpg" alt="una foto del capuologo della regione" width="300" height="auto">
+					</div>
+				</div>
 			</section>
 			<section id="section6">
 			<h2> La squadra del potenza calcio</h2>
@@ -200,7 +285,7 @@
 					<tr>
 						<td>
 							<a href="https://www.potenzacalcio.eu" target="_blank">
-								<img src="potenza.jpg" alt="i tifosi del potenza" title="la curva"/>
+								<img src="potenza.jpg" alt="i tifosi del potenza" title="la curva" width="300" height="auto"/>
 								</a>
 							<p>se clicchi la foto ti apre il sito del potenza calcio</p>
 						</td>
@@ -212,16 +297,16 @@
 					<tr>
 						<td style="text-align: center;">
 							<p>Ecco un video del potenza </P>
-							<iframe width="928" height="522" src="https://www.youtube.com/embed/O5zF2oOn4HE" title="TGR - Potenza Calcio - Se mi lasci non vale" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							<iframe width="400" height="300" src="https://www.youtube.com/embed/O5zF2oOn4HE" title="TGR - Potenza Calcio - Se mi lasci non vale" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 						</td>
-					</tr>
-					<p>I Luoghi da Non Perdere:
-					
+					</tr>	
 			</section>
 			<p>grazie per aver visitato il sito</p>
 		</main>
 		<footer>
 			<p>&copy; Stani Francesco</p>
 		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 	</body>	
 </html>
